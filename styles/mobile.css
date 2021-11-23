@@ -1,0 +1,160 @@
+/* resets */
+
+html,
+body {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #fff;
+}
+
+p {
+  text-align: justify;
+  line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* header and navigation */
+#header-nav,
+.header-container {
+  background-color: #5e8d55;
+  width: 100%;
+}
+
+#hamburger {
+  background: none;
+  border: none;
+  font-size: 2rem;
+}
+
+header {
+  padding: 1em 1em 1em 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.25em solid #ffa632;
+}
+
+header h1 {
+  font-family: "Tourney", cursive;
+}
+
+header h3 {
+  font-family: "Tourney", cursive;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  /* width: 100%; */
+  margin-right: 0.8rem;
+}
+
+nav ul {
+  display: none;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(67, 104, 60);
+  border-bottom: 0.25em solid #ffa632;
+}
+
+nav {
+  background-color: rgb(67, 104, 60);
+}
+
+nav li {
+  width: 100%;
+  list-style-type: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+nav li:last-of-type {
+  border-bottom: none;
+}
+
+nav a {
+  font-family: "Tourney", cursive;
+  display: block;
+  font-size: 1.35rem;
+  width: 100%;
+  text-decoration: none;
+  padding: 0.65em 0;
+  text-align: center;
+  color: #fff;
+}
+
+nav a:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+  /* font-size: 1.5rem; */
+  color: #ffa632;
+  /*text-decoration: underline;*/
+  /*border-top: 5px solid #c77730;*/
+}
+
+.open {
+  display: flex;
+  width: 100%;
+}
+
+.rotate {
+  transform: rotate(90deg);
+}
+
+/* main content */
+
+.title {
+  color: black;
+  margin-bottom: 0.5em;
+  font-size: 3rem;
+  font-family: "Tourney", cursive;
+}
+
+main div {
+  /*margin: 1em;*/
+  padding: 1em;
+}
+
+main div button {
+  font-family: "Tourney", cursive;
+  font-size: 1.5em;
+  padding: 1em 1.5em;
+  margin: 1em 1.5em 1em 0.5em;
+  border: 1px solid #5e8d55;
+  color: #5e8d55;
+  border-radius: 10px;
+  transition-property: color, background-color;
+  transition: 0.25s;
+}
+
+main div button:hover {
+  background-color: #5e8d55;
+  color: #ffa632;
+  transform: scale(1.05);
+}
+
+main img {
+  width: 100%;
+  border-radius: 15px;
+}
