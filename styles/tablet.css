@@ -16,10 +16,14 @@
 
     }
 
-    header, nav ul, main {
+    header, nav ul, main, .header div {
         max-width: 80%;
         margin: auto;
+    }
 
+    .header, .header div {
+        /* margin: 0; */
+        padding-left: 0;
     }
 
     nav li {

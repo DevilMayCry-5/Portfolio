@@ -6,6 +6,7 @@ body {
   box-sizing: border-box;
   font-size: 16px;
   font-family: sans-serif;
+  background-color: rgba(255, 255, 255, 0.938);
 }
 
 h1,
@@ -35,9 +36,10 @@ a {
 }
 
 /* header and navigation */
-#header-nav,
+
 .header-container {
-  background-color: #5e8d55;
+  /* background-color: #5e8d55; */
+  background: url(/assets/images/bg.jpg) no-repeat center center/cover;
   width: 100%;
 }
 
@@ -78,7 +80,7 @@ nav ul {
   flex-direction: column;
   margin: 0;
   padding: 0;
-  background-color: rgb(67, 104, 60);
+  background-color: rgb(63, 117, 52);
   border-bottom: 0.25em solid #ffa632;
 }
 
@@ -108,7 +110,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: rgba(255, 255, 255, 0.25);
+  background-color: rgba(21, 104, 46, 0.452);
   /* font-size: 1.5rem; */
   color: #ffa632;
   /*text-decoration: underline;*/
@@ -127,12 +129,24 @@ nav a:hover {
 /* main content */
 
 .title {
-  color: black;
+  color: rgb(36, 33, 30);
   margin-bottom: 0.5em;
   font-size: 3rem;
   font-family: "Tourney", cursive;
 }
 
+
+.header {
+  /* background: url(/assets/images/bg.jpg) no-repeat center center/cover; */
+  /* height: 75vh; */
+  padding: 1em;
+}
+
+.header div {
+  max-width: 75%;
+  padding: 1em;
+  color: rgb(78, 78, 78);
+}
 main div {
   /*margin: 1em;*/
   padding: 1em;

@@ -38,4 +38,9 @@
         max-width: 85%;
         margin: auto;
     }
+
+    .header div {
+        margin-left: 7.5%;
+        max-width: 60%;
+    }
 }
