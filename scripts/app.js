@@ -5,7 +5,7 @@ const images = []
 
 btn.addEventListener('click', e => {
     menu.classList.toggle('open');
-    btn.classList.toggle('rotate');
+    btn.classList.toggle('is-active');
 })
 
 function slideShow() {

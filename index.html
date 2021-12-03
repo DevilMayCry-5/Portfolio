@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="styles/desktop.css" />
     <!-- for desktop/large screen sizes -->
 
+    <link rel="stylesheet" href="/styles/dist/hamburgers.css" />
+
     <!-- link to fonts  -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -44,7 +46,9 @@
         <!-- header -->
         <header>
           <!-- header elements -->
-          <a href="https://www.xbox.com/en-GB/games/halo-infinite" target="_blank"
+          <a
+            href="https://www.xbox.com/en-GB/games/halo-infinite"
+            target="_blank"
             ><div class="logo">
               <img src="assets/images/logo.png" alt="logo" />
 
@@ -55,7 +59,12 @@
             </div></a
           >
           <div>
-            <button id="hamburger">&#8801;</button>
+            <!-- <button id="hamburger">&#8801;</button> -->
+            <button class="hamburger hamburger--minus" type="button">
+              <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+              </span>
+            </button>
           </div>
         </header>
 
@@ -78,31 +87,13 @@
       <div>
         <div>
           <h1 class="title">HALO - MC COLLECTION</h1>
-          <p>
+          <p class="intro">
             Master Chief Petty Officer John-117, or " Master Chief ", is a
             fictional character and the protagonist in the Halo multimedia
             franchise. Master Chief is a playable character in the series of
             military science fiction first-person shooter video games Halo:
             Combat Evolved, Halo 2, Halo 3, Halo 4, Halo 5: Guardians and Halo
             Infinite.
-          </p>
-          <br />
-          <p>
-            The Master Chief, originally named John, was born in 2511 and first
-            lived with his family on the human colony planet Eridanus II. Large
-            for his six years of age, and approximately a foot above his school
-            peers, he is described as a typical boy with brown hair, freckles
-            and a gap between his two front teeth.In 2517, John and seventy-four
-            other children his age are covertly taken from their homes and
-            replaced with clones to hide the kidnapping. The original children
-            are brought to planet Reach, one of the UNSC's headquarters, to
-            begin intense physical and psychological training to become
-            SPARTAN-II supersoldiers. They are assigned new identification
-            numbers instead of last names; John becomes known as John-117.
-            Approximately eight years later, John and the other children are
-            biologically and cybernetically augmented and enhanced. These
-            procedures had substantial risks;[17] only John and thirty-two other
-            Spartans survive.
           </p>
         </div>
 
@@ -113,8 +104,8 @@
           />
         </div>
 
-        <button>HOME &#8250;</button>
-        <button id="contact-btn">CONTACT &#8250;</button>
+        <!-- <button>HOME &#8250;</button>
+        <button id="contact-btn">CONTACT &#8250;</button> -->
       </div>
 
       <!-- form -->
